@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Atividade 9 - Funções</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Atividade 9 - Funções</h1>
+
+    <div class="caixa">
+        <h2>1) Maior de três números</h2>
+        <input type="number" id="m1" placeholder="Número 1">
+        <input type="number" id="m2" placeholder="Número 2">
+        <input type="number" id="m3" placeholder="Número 3">
+        <button onclick="mostrarMaior()">Verificar</button>
+        <p id="resMaior"></p>
+    </div>
+
+    <div class="caixa">
+        <h2>2) Ordem crescente</h2>
+        <input type="number" id="o1" placeholder="Número 1">
+        <input type="number" id="o2" placeholder="Número 2">
+        <input type="number" id="o3" placeholder="Número 3">
+        <button onclick="mostrarOrdem()">Ordenar</button>
+        <p id="resOrdem"></p>
+    </div>
+
+    <div class="caixa">
+        <h2>3) Palíndromo</h2>
+        <input type="text" id="texto" placeholder="Digite uma frase ou palavra">
+        <button onclick="mostrarPalindromo()">Verificar</button>
+        <p id="resPalindromo"></p>
+    </div>
+
+    <div class="caixa">
+        <h2>4) Subconjunto</h2>
+        <input type="text" id="palavra1" placeholder="Primeira palavra">
+        <input type="text" id="palavra2" placeholder="Segunda palavra">
+        <button onclick="mostrarSubconjunto()">Verificar</button>
+        <p id="resSubconjunto"></p>
+    </div>
+
+    <div class="caixa">
+        <h2>5) Dia da semana</h2>
+        <input type="date" id="data">
+        <button onclick="mostrarDiaSemana()">Verificar</button>
+        <p id="resDia"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
